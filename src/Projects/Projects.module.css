@@ -1,0 +1,21 @@
+.projectsBlock {
+    background-color: #bbb6b6;
+    height: 100vh;
+}
+
+.projectsContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.cardProject {
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.title {
+    background-color: #e3dede;
+}

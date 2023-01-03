@@ -1,0 +1,15 @@
+.home {
+    height: 100vh;
+    background-color: #ffaaaa;
+}
+
+.greeting {
+    width: 30rem;
+    background-color: #a89393;
+}
+
+.photo {
+    height: 40rem;
+    width: 30rem;
+    background-color: lightgrey;
+}

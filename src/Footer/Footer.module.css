@@ -1,0 +1,33 @@
+.footerBlock {
+    height: 30vh;
+    background-color: #b4909a;
+}
+
+.footerContainer {
+    flex-direction: column;
+
+}
+.title {
+    background-color: #e3dede;
+}
+
+.footerDescr {
+    display: flex;
+    justify-content: space-between;
+    width: 30rem;
+    border: 1px solid black;
+}
+
+.descr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 4rem;
+    width: 4rem;
+}
+
+.confidentiality {
+    border: 1px solid black;
+    background-color: #e3dede;
+}

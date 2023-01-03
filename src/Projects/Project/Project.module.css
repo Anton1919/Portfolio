@@ -1,0 +1,44 @@
+.wrapper {
+    width: 25rem;
+    background-color: #90afb7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20rem;
+    border: 1px solid black;
+    background-color: #8ec5bf;
+}
+
+.btn {
+    background-color: #8aa2a8;
+}
+
+.descriptionBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    border: 1px solid black;
+    background-color: #95e895;
+}
+
+.title {
+    margin-top: 0.5rem;
+    background-color: #bbb6b6;
+}
+
+.description {
+    margin-top: 0.5rem;
+    margin-bottom: .5rem;
+    background-color: #bbb6b6;
+}
+
