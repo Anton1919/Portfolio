@@ -7,6 +7,7 @@ import Contacts from "./Contacts/Contacts";
 import Footer from "./Footer/Footer";
 
 function App() {
+    connsole.log("test")
     return (
         <div className="App">
             <Header/>
