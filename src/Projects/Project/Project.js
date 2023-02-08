@@ -9,7 +9,7 @@ const Project = () => {
            </div>
             <div className={s.descriptionBlock}>
                 <div className={s.title}>
-                    <span>Project name</span>
+                    <h2>Project name</h2>
                 </div>
                 <div className={s.description}>
                     <span>description</span>

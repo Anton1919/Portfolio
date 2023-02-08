@@ -1,15 +1,104 @@
 .home {
+    width: 100%;
     height: 100vh;
-    background-color: #ffaaaa;
+    float: left;
+    clear: both;
+    position: relative;
+    background-color: #fff;
 }
 
-.greeting {
-    width: 30rem;
-    background-color: #a89393;
+.background {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    clip-path: ellipse(70% 80% at 70% 50%);
 }
 
 .photo {
-    height: 40rem;
-    width: 30rem;
-    background-color: lightgrey;
+    background-image: url('/src/assets/image/photo_2023-02-07_17-23-57.jpg');
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    max-width: 120rem;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    padding: 0 4rem;
+}
+
+@media (max-width: 160rem) {
+    .container {
+        max-width: 107rem;
+    }
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-right: 2rem;
+    width: 48%;
+}
+
+.title {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    margin-bottom: 4px;
+}
+
+.title h1 {
+    position: relative;
+    font-size: 6rem;
+    font-family: "Poppins";
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #2a34d3;
+    line-height: 1.2;
+    display: inline-block;
+}
+
+
+.greeting {
+    -webkit-text-stroke: 0.2rem #2a34d3;
+    color: transparent;
+}
+
+.jobWrap {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+}
+
+.job {
+    font-weight: 500;
+    font-size: 1.7rem;
+    font-family: "Roboto";
+    margin-bottom: 1rem;
+    float: left;
+    position: relative;
+}
+
+@media screen and (max-width: 530px) {
+    .title h1 {
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width: 530px) {
+    .job {
+        font-size: 1rem;
+    }
 }

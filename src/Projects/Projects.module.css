@@ -1,6 +1,6 @@
 .projectsBlock {
     background-color: #bbb6b6;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .projectsContainer {
@@ -19,3 +19,15 @@
 .title {
     background-color: #e3dede;
 }
+
+.title h2 {
+
+}
+
+@media screen and ( max-width:  1129px) {
+    .projects {
+        justify-content: center;
+    }
+}
+
+/* также если использовать min-width то будет наоборот */
