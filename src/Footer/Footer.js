@@ -1,21 +1,25 @@
 import React from 'react';
 import s from './Footer.module.css'
 import stylesContainer from "../common/styles/Container.module.css";
+import instagram from '../assets/image/instagram.png'
+import telegram from '../assets/image/telegram.png'
+import linkedin from '../assets/image/linkedin.png'
+import vk from '../assets/image/VK.png'
 
 
 const Footer = () => {
     return (
         <div className={s.footerBlock}>
             <div className={`${stylesContainer.container} ${s.footerContainer}`}>
-               <h2 className={s.title}>Anton</h2>
+               <h2 className={s.title}>Anton Ponomarev</h2>
                 <div className={s.footerDescr}>
-                    <div className={s.descr}>Inst</div>
-                    <div className={s.descr}>VK</div>
-                    <div className={s.descr}>LinkedIn</div>
-                    <div className={s.descr}>Twitter</div>
+                    <div className={s.descr}><img src={instagram} alt="instagram"/></div>
+                    <div className={s.descr}><img src={telegram} alt="telegram"/></div>
+                    <div className={s.descr}><img src={linkedin} alt="linkedin"/></div>
+                    <div className={s.descr}><img src={vk} alt="vk"/></div>
                 </div>
                 <div className={s.confidentiality}>
-                    <span>All rights reserved</span>
+                    <span>© 2023  All rights reserved</span>
                 </div>
             </div>
         </div>
