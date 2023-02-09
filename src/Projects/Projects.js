@@ -11,8 +11,9 @@ const Projects = () => {
                     <h2 >Projects</h2>
                 </div>
                 <div className={s.cardProject}>
-                    <Project/>
-                    <Project/>
+                    <Project projectName={'Todo list'} description={'Application build with ReactJS/Redux/TypeScript.'}/>
+                    <Project projectName={'Social Network'} description={'SPA created with React JS library, Redux for state management, TypeScript'}/>
+                    <Project projectName={'Counter'} description={'Counter application with ReactJS/Redux/TypeScript.'}/>
                 </div>
             </div>
         </div>

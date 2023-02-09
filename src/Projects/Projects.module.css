@@ -1,5 +1,5 @@
 .projectsBlock {
-    background-color: #bbb6b6;
+    background-color: #fff;
     min-height: 100vh;
 }
 
@@ -9,19 +9,23 @@
 }
 
 .cardProject {
-    border: 1px solid black;
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.title {
-    background-color: #e3dede;
+@media screen and ( max-width:  920px) {
+    .cardProject {
+        justify-content: center;
+    }
 }
 
-.title h2 {
-
+.title {
+    font-weight: 800;
+    font-family: "Poppins";
+    font-size: 1.5rem;
+    margin: 1rem;
 }
 
 @media screen and ( max-width:  1129px) {

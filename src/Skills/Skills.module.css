@@ -1,11 +1,13 @@
 .skillsBlock {
     min-height: 100vh;
-    background-color: #7474b7;
+    background-color: #f9f9f9;
 }
 
 .skillsContainer {
     flex-direction: column;
     justify-content: flex-start;
+    height: 100%;
+    width: 80%;
 }
 
 .skills {
@@ -14,8 +16,12 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+
 }
 
 .title {
-    background-color: #e3dede;
+    font-weight: 800;
+    font-family: "Poppins";
+    font-size: 1.5rem;
+    margin: 1rem;
 }

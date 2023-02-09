@@ -9,6 +9,7 @@
 
 .background {
     position: absolute;
+
     right: 0;
     top: 0;
     bottom: 0;
@@ -18,6 +19,7 @@
 
 .photo {
     background-image: url('/src/assets/image/photo_2023-02-07_17-23-57.jpg');
+    height: 100vh;
     position: absolute;
     right: 0;
     top: 0;
@@ -68,6 +70,10 @@
     color: #2a34d3;
     line-height: 1.2;
     display: inline-block;
+    animation-name: upToDown;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-timing-function: ease;
 }
 
 
@@ -81,6 +87,10 @@
     height: auto;
     clear: both;
     float: left;
+    animation-name: rightToLeft;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-timing-function: ease;
 }
 
 .job {
@@ -100,5 +110,37 @@
 @media screen and (max-width: 530px) {
     .job {
         font-size: 1rem;
+    }
+}
+
+@keyframes upToDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+
+    80% {
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes rightToLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    80% {
+        transform: translateX(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
     }
 }

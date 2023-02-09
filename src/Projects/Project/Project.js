@@ -1,18 +1,18 @@
 import React from 'react';
 import s from "./Project.module.css"
 
-const Project = () => {
+const Project = (props) => {
     return (
         <div className={s.wrapper}>
            <div className={s.view}>
-               <button className={s.btn}>View</button>
+               <a className={s.btn}>View</a>
            </div>
             <div className={s.descriptionBlock}>
                 <div className={s.title}>
-                    <h2>Project name</h2>
+                    <h2>{props.projectName}</h2>
                 </div>
                 <div className={s.description}>
-                    <span>description</span>
+                    <span>{props.description}</span>
                 </div>
             </div>
         </div>
