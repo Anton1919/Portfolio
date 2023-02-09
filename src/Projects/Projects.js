@@ -14,6 +14,9 @@ const Projects = () => {
                     <Project projectName={'Todo list'} description={'Application build with ReactJS/Redux/TypeScript.'}/>
                     <Project projectName={'Social Network'} description={'SPA created with React JS library, Redux for state management, TypeScript'}/>
                     <Project projectName={'Counter'} description={'Counter application with ReactJS/Redux/TypeScript.'}/>
+                    <Project projectName={'Balloon site'} description={'Balloon tours. An unforgettable adventure awaits you'}/>
+                    <Project projectName={'Bank site'} description={'When the bank is at its maximum understandable'}/>
+                    <Project projectName={'Game club site'} description={'Immerse yourself in the world of modern games'}/>
                 </div>
             </div>
         </div>
