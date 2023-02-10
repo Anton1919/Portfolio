@@ -17,12 +17,14 @@ const Contacts = () => {
                             <form>
                                 <div className={s.formGroup}><label htmlFor="">name</label> <input type="text"/></div>
                                 <div className={s.formGroup}><label htmlFor="">email</label> <input type="text"/></div>
-                                <div className={s.formGroup}><label htmlFor="">message</label> <textarea className={s.textarea}></textarea></div>
-
+                                <div className={s.formGroup}><label htmlFor="">message</label> <textarea
+                                    className={s.textarea}></textarea></div>
 
                             </form>
                         </div>
-                        <div className={s.formGroup}> <button className={s.btn}>Send</button></div>
+                        <div className={s.formGroup}>
+                            <button className={s.btn}>Send</button>
+                        </div>
 
                     </div>
                 </div>

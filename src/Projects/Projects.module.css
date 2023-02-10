@@ -4,7 +4,6 @@
 }
 
 .projectsContainer {
-    margin-top: 3rem;
     flex-direction: column;
     justify-content: flex-start;
 }
@@ -18,7 +17,7 @@
     margin-bottom: 1rem;
 }
 
-@media screen and ( max-width:  1000px) {
+@media screen and ( max-width: 1000px) {
     .cardProject {
         justify-content: center;
     }
@@ -43,7 +42,7 @@
     transform: translate(-50%, 50%);
 }
 
-@media screen and ( max-width:  1129px) {
+@media screen and ( max-width: 1129px) {
     .projects {
         justify-content: center;
     }

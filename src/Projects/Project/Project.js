@@ -5,6 +5,7 @@ const Project = (props) => {
     return (
         <div className={s.wrapper}>
            <div className={s.view}>
+               <img src={props.backgroundImage} alt="image"/>
                <a className={s.btn}>View</a>
            </div>
             <div className={s.descriptionBlock}>

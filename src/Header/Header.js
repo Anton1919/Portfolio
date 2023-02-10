@@ -20,10 +20,10 @@ const Header = () => {
 
     return (
         <div className={s.loaded}>
-           <div className={state ? s.inner + " " + s.scroll : s.inner}>
-               <div className={s.logo}>DEV</div>
-               <Nav/>
-           </div>
+            <div className={state ? s.inner + " " + s.scroll : s.inner}>
+                <div className={s.logo}>DEV</div>
+                <Nav/>
+            </div>
         </div>
     );
 };

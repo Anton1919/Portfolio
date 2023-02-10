@@ -11,7 +11,7 @@ const Footer = () => {
     return (
         <div className={s.footerBlock}>
             <div className={`${stylesContainer.container} ${s.footerContainer}`}>
-               <h2 className={s.title}>Anton Ponomarev</h2>
+                <h2 className={s.title}>Anton Ponomarev</h2>
                 <div className={s.footerDescr}>
                     <div className={s.descr}><img src={instagram} alt="instagram"/></div>
                     <div className={s.descr}><img src={telegram} alt="telegram"/></div>
