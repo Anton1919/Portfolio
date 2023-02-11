@@ -17,22 +17,28 @@ const Projects = () => {
                     <h2>Projects</h2>
                 </div>
                 <div className={s.cardProject}>
-                    <Project backgroundImage={todo}
-                             projectName={'Todo list'}
-                             description={'Application build with ReactJS/Redux/TypeScript.'}/>
-                    <Project backgroundImage={social}
+                    <Project
+                        backgroundImage={todo}
+                        projectName={'Todo list'}
+                        description={'Application build with ReactJS/Redux/TypeScript.'}/>
+                    <Project reference={'https://anton1919.github.io/samurai-way/'}
+                             backgroundImage={social}
                              projectName={'Social Network'}
                              description={'SPA created with React JS library, Redux for state management, TypeScript'}/>
-                    <Project backgroundImage={counter}
+                    <Project reference={'https://anton1919.github.io/counter-redux/'}
+                             backgroundImage={counter}
                              projectName={'Counter'}
                              description={'Counter application with ReactJS/Redux/TypeScript.'}/>
-                    <Project backgroundImage={balloons}
+                    <Project reference={'https://anton1919.github.io/ballons/'}
+                             backgroundImage={balloons}
                              projectName={'Balloon site'}
                              description={'Vanila JS + HTML&SASS. Balloon tours. An unforgettable adventure awaits you'}/>
-                    <Project backgroundImage={bank}
+                    <Project reference={'https://anton1919.github.io/Bank/Bank'}
+                             backgroundImage={bank}
                              projectName={'Bank site'}
                              description={'Vanila JS + HTML&CSS. When the bank is at its maximum understandable'}/>
-                    <Project backgroundImage={game}
+                    <Project reference={'https://anton1919.github.io/storeGame/'}
+                             backgroundImage={game}
                              projectName={'Game club site'}
                              description={'Vanila JS + HTML&CSS, GRID. Immerse yourself in the world of modern games'}/>
                 </div>

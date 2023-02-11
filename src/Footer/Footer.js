@@ -13,10 +13,15 @@ const Footer = () => {
             <div className={`${stylesContainer.container} ${s.footerContainer}`}>
                 <h2 className={s.title}>Anton Ponomarev</h2>
                 <div className={s.footerDescr}>
-                    <div className={s.descr}><img src={instagram} alt="instagram"/></div>
-                    <div className={s.descr}><img src={telegram} alt="telegram"/></div>
-                    <div className={s.descr}><img src={linkedin} alt="linkedin"/></div>
-                    <div className={s.descr}><img src={vk} alt="vk"/></div>
+                    <a href='https://instagram.com/m__moments__?igshid=YmMyMTA2M2Y=' target='_blank' rel="noreferrer"
+                       className={s.descr}>
+                        <img src={instagram} alt="instagram"/>
+                    </a>
+                    <a href='https://t.me/anton_qqq' target='_blank' rel="noreferrer" className={s.descr}>
+                        <img src={telegram} alt="telegram"/>
+                    </a>
+                    <a className={s.descr}><img src={linkedin} alt="linkedin"/></a>
+                    <a className={s.descr}><img src={vk} alt="vk"/></a>
                 </div>
                 <div className={s.confidentiality}>
                     <span>© 2023  All rights reserved</span>

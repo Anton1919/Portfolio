@@ -119,11 +119,11 @@
 
 .btn {
     background-color: #e3dede;
+    transition: transform .3s ease;
 }
 
 .btn:hover {
     background: linear-gradient(145deg, #6a68ce, #279ffe);
     color: white;
     transform: scale(1.02);
-    transition: all .3s ease;
 }

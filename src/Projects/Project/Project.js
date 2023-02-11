@@ -4,10 +4,10 @@ import s from "./Project.module.css"
 const Project = (props) => {
     return (
         <div className={s.wrapper}>
-           <div className={s.view}>
-               <img src={props.backgroundImage} alt="image"/>
-               <a className={s.btn}>View</a>
-           </div>
+            <div className={s.view}>
+                <img src={props.backgroundImage} alt="image"/>
+                <a href={props.reference} target='_blank' className={s.btn}>View</a>
+            </div>
             <div className={s.descriptionBlock}>
                 <div className={s.title}>
                     <h2>{props.projectName}</h2>
