@@ -4,7 +4,7 @@ import stylesContainer from "../common/styles/Container.module.css";
 
 const Contacts = () => {
     return (
-        <div className={s.contactsBlock}>
+        <div className={s.contactsBlock} id='contacts'>
             <div className={`${stylesContainer.container} ${s.contactsContainer}`}>
 
                 <div className={s.contacts}>

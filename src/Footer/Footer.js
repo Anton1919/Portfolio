@@ -20,8 +20,10 @@ const Footer = () => {
                     <a href='https://t.me/anton_qqq' target='_blank' rel="noreferrer" className={s.descr}>
                         <img src={telegram} alt="telegram"/>
                     </a>
-                    <a className={s.descr}><img src={linkedin} alt="linkedin"/></a>
-                    <a className={s.descr}><img src={vk} alt="vk"/></a>
+                    <a href='https://www.linkedin.com/in/anton-ponomarev-174749240/' target='_blank' rel="noreferrer"
+                       className={s.descr}><img src={linkedin} alt="linkedin"/></a>
+                    <a href='https://vk.com/id659555735' target='_blank' rel="noreferrer" className={s.descr}><img
+                        src={vk} alt="vk"/></a>
                 </div>
                 <div className={s.confidentiality}>
                     <span>© 2023  All rights reserved</span>

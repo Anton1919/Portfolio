@@ -11,7 +11,7 @@ import social from '../assets/image/social.jpg'
 
 const Projects = () => {
     return (
-        <div className={s.projectsBlock}>
+        <div className={s.projectsBlock} id='projects'>
             <div className={`${styleContainer.container} ${s.projectsContainer}`}>
                 <div className={s.title}>
                     <h2>Projects</h2>

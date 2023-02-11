@@ -21,7 +21,7 @@ import redux from '../assets/icon/redux.svg'
 
 const Skills = () => {
     return (
-        <div className={s.skillsBlock}>
+        <div className={s.skillsBlock} id='skills'>
             <div className={`${styleContainer.container} ${s.skillsContainer}`}>
                 <div className={s.title}>
                     <h2>Skills</h2>

@@ -6,7 +6,7 @@ import photo from '../assets/image/photo_2023-02-07_17-23-57.jpg'
 const Home = () => {
 
     return (
-        <div className={s.home}>
+        <div className={s.home} id='home'>
             <div className={s.container}>
                 <div className={s.info}>
                     <div className={s.descr}>
@@ -15,9 +15,9 @@ const Home = () => {
                             <span>Hi there</span>
                         </div>
 
-                       <div className={s.title}>
-                           <h1><span className={s.iam}>I am </span>Anton</h1>
-                       </div>
+                        <div className={s.title}>
+                            <h1><span className={s.iam}>I am </span>Anton</h1>
+                        </div>
 
 
                         <div className={s.greeting}>
