@@ -17,7 +17,7 @@ const Projects = () => {
                     <h2>Projects</h2>
                 </div>
                 <div className={s.cardProject}>
-                    <Project
+                    <Project reference={'https://anton1919.github.io/todolist2/'}
                         backgroundImage={todo}
                         projectName={'Todo list'}
                         description={'Application build with ReactJS/Redux/TypeScript.'}/>

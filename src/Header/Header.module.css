@@ -5,7 +5,7 @@
     left: 0;
     right: 0;
     z-index: 10;
-    transition: all .5s ease;
+    /*transition: all .5s ease;*/
 }
 
 .inner {
@@ -15,7 +15,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 1rem 2rem;
-    transition: all .5s ease;
+    /*transition: all .5s ease;*/
 }
 
 .scroll {
