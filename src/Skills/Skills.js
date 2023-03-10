@@ -39,7 +39,6 @@ const Skills = () => {
                     <Skill title={'GIT'} image={git}/>
                     <Skill title={'TDD'} image={tdd}/>
                     <Skill title={'STORYBOOK'} image={storybook}/>
-                    <Skill title={'NODE JS'} image={node}/>
                     <Skill title={'FIGMA'} image={figma}/>
                     <Skill title={'AXIOS'} image={axios}/>
                 </div>
